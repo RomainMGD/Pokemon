@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/poke.css">
+    <script src="JS/Javascript.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="row">
+
+        <div class="dim1 combat_fond col-8 pad margin_gen">
+            <div class="row bot">
+                <div class="col-4 placement4">
+                    <div>
+                        <div id="pointdevie" class="align bg-success" role="progressbar" style="width: 50%;"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100/100</div>
+                    </div>
+                    <div>
+                        <div id="exp" class="align bg-primary" role="progressbar" style="width: 50%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                </div>
+
+                <div class="col-4 placement1">
+                    <img src="Photo/combat1.png" alt="" width="25%" height="75%">
+                </div>
+            </div>
+            <div class="row bot">
+                <div class="col-4 placement3">
+                    <img src="Photo/combat2.png" alt="" width="45%" height="95%">
+                </div>
+
+                <div class="col-4 placement2">
+
+                    <div>
+                        <div id="pointdevie" class="align bg-success" role="progressbar" style="width: 50%;"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100/100</div>
+                    </div>
+                    <div>
+                        <div id="exp" class="align bg-primary" role="progressbar" style="width: 50%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100">0%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="margin_gen1 mt-3">
+            <div class="row col-8">
+                <div class="col-6 bg_gris pokebord">
+                    <h3 id="message">Ceci est un message</h3>
+                </div>
+                <div class="col-5 bg_gris">
+                    <div class="row">
+                        <button type="button" id="attaque" class="grisc btn_dim mt-2 ml-4 mb-2" onclick="phase_combat()">Attaque</button>
+                        <button type="button" id="attaque" class="grisc btn_dim mt-2 ml-5" onclick="phase_combat()">Pokemon</button>
+                    </div>
+                    <div class="row">
+                        <button type="button" id="attaque" class="grisc btn_dim mt-2 ml-4 mb-2" onclick="phase_combat()">SAC</button>
+                        <button type="button" id="attaque" class="grisc btn_dim mt-2 ml-5" onclick="phase_combat()">Fuir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

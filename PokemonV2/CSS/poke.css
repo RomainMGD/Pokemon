@@ -1,0 +1,75 @@
+.dim1 {
+    width: 100%;
+    height: 20%;
+}
+
+.combat_fond {
+    background-image: url(../Photo/fondCombat.png);
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+}
+
+.barre_vie{
+    background-color: greenyellow;
+
+}
+
+.placement1 {
+    margin-left: 35px;
+    margin-top: 120px;
+}
+
+
+
+.placement3 {
+    margin-top: -80px;
+    margin-left: 80px;
+}
+
+.placement4 {
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.pad {
+    padding-right: 50px;
+}
+
+.bot {
+    margin-bottom: 50px;
+}
+
+.margin_gen {
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.margin_sec {
+    margin-left: 50%;
+}
+
+.bg_gris {
+    background-color: rgb(168, 168, 168);
+}
+
+.margin_gen1 {
+    margin-left: 435px;
+}
+
+.pokebord {
+    border: 5px grey ridge;
+}
+
+.grisc {
+    background-color: rgb(212, 212, 212);
+}
+
+.btn_dim {
+    width: 100px;
+    height: 30px;
+}
+
+.grisc:hover {
+    background-color: antiquewhite;
+}
